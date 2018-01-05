@@ -1,3 +1,4 @@
+
 function BoardMember(names, homeState,training){
   this.names=names;
   this.homeState=homeState;
