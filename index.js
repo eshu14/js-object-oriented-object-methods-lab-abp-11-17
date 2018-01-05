@@ -15,6 +15,6 @@ function BoardMember(names, homeState,training){
     return 'You will see great things from Scober';
   };
   this.sayHi=funciton(){
-    return `Hi, my name is ${this.names}. I am from ${this.homeState}, and I was trained in ${this.training}`;
+    return `Hi, my name is ${this.names}. I am from ${this.homeState}, and I was trained in ${this.training}.`;
   };
 }
