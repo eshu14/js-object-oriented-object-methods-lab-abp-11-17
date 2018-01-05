@@ -1,0 +1,20 @@
+function boardMember(name, homeState,training){
+  this.name=name;
+  this.homeState=homeState;
+  this.training=training;
+  this.veto=function(){
+    return 'No, I must disagree';
+  };
+  this.approve=function(){
+    return 'You can do that!';
+  };
+  this.doCharity=function(){
+    return 'I like to help people';
+  };
+  this.releasePressStatement=function(){
+    return 'You will see great things from Scober';
+  };
+  this.sayHi=funciton(){
+    return `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${traininig}`
+  };
+}
